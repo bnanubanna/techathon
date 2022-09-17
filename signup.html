@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Form Input Wave</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hey join YoBlogs</h1>
+      <form>
+        <div class="form-control">
+          <input type="text" placeholder="Username" required>
+          
+          
+        </div>
+
+        <div class="form-control">
+          <input type="password" placeholder="Password" required>
+          
+        </div>
+        <div class="form-control">
+          <input type="number" placeholder="Number" required>
+        </div>
+        <div class="form-control">
+          <input type="text" placeholder="Gender" required>
+          
+        </div>
+
+        <!-- <button class="btn">Login</button> -->
+        <input class="btn" type="button"  value="Register"  onClick="display(this.form)"/>
+
+        <p class="text">Already have an account? <a href="/signin.html">sign in</a> </p>
+      </form>
+    </div>
+  </body>
+  <script>
+    function display(form){
+      location="http://127.0.0.1:5500/trip.html";
+    }
+  </script>
+</html>

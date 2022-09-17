@@ -1,0 +1,545 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        width: 100%;
+        /* height: 65vh; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29)), url('https://www.planetware.com/wpimages/2020/03/malaysia-best-beach-resorts-pangkor-laut-resort.jpg');
+        background-repeat: no-repeat;
+        background: rgba(.06rem, .06rem, .05rem, 0.4);
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(2, 2, 2, 0.4);
+        height: 13vh;
+        margin-bottom:10% ;
+    }
+
+    .logo {
+        font-size: 220%;
+        font-weight: bolder;
+        color: white;
+        text-shadow: .8rem .8rem .5rem black;
+    }
+
+    
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 70%;
+    }
+
+    .menu a {
+        font-weight: bold;
+        text-shadow: .8rem .8rem .5rem black;
+        font-size: 1.3rem;
+        text-align: left;
+        transition: 0.4s;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu a:hover {
+        border-radius: .4rem;
+        background-color: rgb(0, 145, 255);
+        font-size: 1.6rem;
+        color: aliceblue;
+    }
+
+    #float {
+        position: relative;
+        top: -6rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+
+    .float {
+        box-shadow: 1rem 1rem 2rem rgb(114, 113, 113);
+        color: white;
+        background-color: rgb(82, 193, 241);
+        padding: .5rem;
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .box1 {
+        width: 25%;
+        transition: 0.3s;
+        padding: .5rem;
+    }
+
+    .box1:hover {
+        border-radius: .6rem;
+        background-color: rgb(8, 134, 189);
+        font-size: 1.3rem;
+        height: auto;
+    }
+
+    .box2 {
+        width: 25%;
+        transition: 0.3s;
+        padding: .5rem;
+
+    }
+
+    .box2:hover {
+        border-radius: .6rem;
+        background-color: rgb(8, 134, 189);
+        font-size: 1.3rem;
+        height: auto;
+    }
+
+    .box3 {
+        width: 25%;
+        transition: 0.3s;
+        padding: .5rem;
+    }
+
+    .box3:hover {
+        border-radius: .6rem;
+        background-color: rgb(8, 134, 189);
+        font-size: 1.3rem;
+        height: auto;
+    }
+
+    .box4 {
+        width: 25%;
+        transition: 0.3s;
+        padding: .5rem;
+
+    }
+
+    .box4:hover {
+        border-radius: .6rem;
+        background-color: rgb(8, 134, 189);
+        font-size: 1.3rem;
+        height: auto;
+    }
+
+    /* Main styling here */
+
+    main {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://img.freepik.com/free-vector/game-background-night-tropical-jungle_105738-595.jpg?w=996&t=st=1659266862~exp=1659267462~hmac=4ece33990e73f8a67e5211ee1e1d231f636477370f92a1d55583e1da1274bff7');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Divider 1 inside Main */
+    .divider {
+        display: flex;
+        justify-content: space-between;
+        height: 80vh;
+        width: 100%;
+    }
+
+    /* 1st Divider image */
+    .image {
+        margin-left: 3.2rem;
+    }
+
+    .image img {
+        transition: .3s;
+        border-radius: .25rem;
+        box-shadow: .4rem .4rem 3rem rgb(31, 31, 31);
+        max-height: 75vh;
+        width: 100%;
+    }
+
+    /* 1st Divider Cardabout */
+    .cardabout {
+        margin-top: 3.2rem;
+        z-index: 1;
+        border-radius: .7rem;
+        margin-right: 7rem;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(13, 35, 53);
+        transition: 0.4s;
+        padding: 2rem 3rem;
+        position: relative;
+        height: 30vh;
+        width: 20%;
+    }
+
+    .cardabout:hover {
+        height: 60vh;
+    }
+
+    .imgabout {
+        transform: translateY(-5rem);
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgabout img {
+        border-radius: .4rem;
+        width: 100%;
+    }
+
+    .cardabout:hover p {
+        font-size: 1.1rem;
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+
+    .cardabout:hover h1 {
+        transform: translateY(-1rem);
+    }
+
+    .text1 {
+        position: relative;
+        z-index: -1;
+        color: rgb(240, 235, 235);
+        transform: translateY(-2.4rem);
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .text1 h1 {
+        transform: translateY(-1rem);
+    }
+
+    .text1 p {
+        text-align: left;
+        transition: 0.5s;
+        transform: translateY(-10rem);
+        opacity: 0;
+    }
+
+
+    /* 2nd Divider styling here  */
+
+    .divider2 {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        height: 80vh;
+        width: 100%;
+    }
+
+    .image2 {
+        margin-right: 3.2rem;
+    }
+
+    .image2 img {
+        border-radius: .25rem;
+        box-shadow: .1rem .1rem 3rem rgb(41, 41, 41);
+        max-height: 54vh;
+        width: 100%;
+    }
+
+
+    .text2 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin-left: 3.2rem;
+        padding: 5.3rem;
+        width: 35%;
+        text-align: left;
+        background-color: rgba(13, 35, 53, 0.094);
+        border-radius: .3rem;
+        /* box-shadow: 1rem 1rem 4rem rgb(0, 0, 0); */
+    }
+
+    .text2 h1 {
+        margin-bottom: 3rem;
+        text-shadow: 2rem 2rem 4rem black;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .text2 p {
+        transition: .4s;
+
+    }
+
+    .text2:hover p {
+        transform: rotate(1turn);
+    }
+
+    /* FOOTER PART STYLING */
+
+    footer {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://img.freepik.com/free-vector/bedouins-walk-egypt-pyramids-camel-night-desert_107791-4619.jpg?t=st=1659269963~exp=1659270563~hmac=6c844dcf53838e84d04ff91fa6524cb3d10508db957eefc065b321b3f8118b11');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        /* align-items: center; */
+        width: 100%;
+        /* height: 100vh; */
+    }
+    .col{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .blogs{
+        display: flex;
+        width: 38%;
+        /* height: 30%; */
+        background-color: rgb(48, 9, 9);
+        color: white;
+        flex-direction: column;
+        /* height: 20%; */
+        margin: 5px;
+        border: 2px solid grey;
+        border-radius: 4vmin;
+        /* padding: 2vmin; */
+        
+        
+    }
+    .blogs img{
+        border-radius: 4vmin;
+    }
+    .blogs .para {
+        display: none;
+        /* visibility:hidden; */
+    
+    } 
+    .blogs:hover p {
+        margin: 2%;
+        /* visibility: visible; */
+        display: block;
+        cursor: pointer;
+    }
+    /* .blogs .para:hover{
+    } */
+    /* /* 1st Card in FOOTER */
+
+    .card {
+        position: relative;
+        height: 30vh;
+        width: 10%;
+        border-radius: 1.3rem;
+        box-shadow: 0rem .8rem 1.5rem rgba(0, 0, 0, 0.5);
+        transition: 0.3s;
+        padding: 2rem 3rem;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .card:hover {
+        height: 40vh;
+    }
+
+    .cardimg {
+        transform: translateY(-6.3rem);
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cardimg img {
+        box-shadow: 0rem .8rem 1.5rem rgba(0, 0, 0, 0.5);
+        border-radius: .3rem;
+        width: 100%;
+    }
+
+    .cardtext {
+        padding: .5rem 1rem;
+        text-align: center;
+        transform: translateY(-26rem);
+        opacity: 0;
+    }
+
+    .card:hover>.cardtext {
+        opacity: 1;
+        transform: translateY(-8rem);
+    }
+
+    @media (min-width: 300px) and (max-width: 450px) {
+
+        nav {
+            height: 9vh;
+        }
+
+       
+
+        .menu {
+            display: none;
+        }
+
+        .slogan {
+            top: 3rem;
+        }
+
+        .main {
+            height: 35vh;
+        }
+
+        #float {
+            flex-direction: column;
+            align-items: center;
+            height: 60vh;
+            position: relative;
+            font-size: .5rem;
+            width: 100%;
+        }
+
+        .float {
+            border-radius: 1rem;
+            box-shadow: .1rem .1rem .1rem rgba(114, 113, 113, 0);
+            background-color: rgba(240, 248, 255, 0.922);
+            flex-direction: column;
+            align-items: center;
+            width: 87%;
+        }
+
+        .box1 {
+            width: 100%;
+            background-color: antiquewhite;
+            border: .1rem solid navy;
+            border-radius: 1rem;
+            margin: .5rem;
+            color: black;
+        }
+
+        .box1:hover {
+            border-radius: .6rem;
+            font-size: .8rem;
+            color: white;
+            height: 10vh;
+        }
+
+        .box2 {
+            width: 100%;
+            background-color: antiquewhite;
+            border: .1rem solid navy;
+            border-radius: 1rem;
+            margin: .5rem;
+            color: black;
+        }
+
+        .box2:hover {
+            border-radius: .6rem;
+            font-size: .8rem;
+            color: white;
+            height: 10vh;
+        }
+
+        .box3 {
+            width: 100%;
+            background-color: antiquewhite;
+            border: .1rem solid navy;
+            border-radius: 1rem;
+            margin: .5rem;
+            color: black;
+        }
+
+        .box3:hover {
+            border-radius: .6rem;
+            font-size: .8rem;
+            color: white;
+            height: 10vh;
+        }
+
+        .box4 {
+            width: 100%;
+            background-color: antiquewhite;
+            border: .1rem solid navy;
+            border-radius: 1rem;
+            margin: .5rem;
+            color: black;
+        }
+
+        .box4:hover {
+            border-radius: .6rem;
+            font-size: .8rem;
+            color: white;
+            height: 10vh;
+        }
+
+        .divider {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .image {
+            margin-left: 0.2rem;
+        }
+
+        .image img {
+            width: 100%;
+            height: 20vh;
+            margin-left: .1rem;
+            margin-right: .5rem;
+        }
+
+        .cardabout {
+            width: 60%;
+            height: 21vh;
+            margin: auto;
+        }
+
+        .imgabout {
+            transform: translateY(-5rem);
+        }
+
+        .text1 {
+            font-size: .7rem;
+        }
+
+        .cardabout:hover {
+            height: 41vh;
+        }
+
+        .cardabout p{
+            transform: translateY(-2rem);
+        }
+
+        .cardabout:hover p {
+            transform: translateY(3rem);
+            font-size: .8rem;
+        }
+
+        .text1 h1 {
+            transform: translateY(-2rem);
+            font-size: 1.1rem;
+        }
+
+        .text1:hover h1{
+            transform: translateY(1.4rem);
+        }
+    }
+    .foot{
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+
+
+    @media (min-width: 450px) and (max-width: 600px) {}
+
+    @media (min-width: 600px) and (max-width: 750px) {}
+
+    @media (min-width: 750px) and (max-width: 900px) {}
+
